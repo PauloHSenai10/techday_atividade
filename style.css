@@ -78,15 +78,32 @@ section h2 {
 /* Cards */
 .card {
     background-color: white;
-    width: 300px;
-    display: inline-block;
-    vertical-align: top;
-    margin: 15px;
-    padding: 20px;
+    width: 80%;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 25px;
     border-radius: 10px;
     border-left: 5px solid #2563eb;
+    text-align: left;
 }
 
+.card ol {
+    padding-left: 25px;
+}
+
+.card li {
+    padding: 12px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #ddd;
+    font-size: 17px;
+}
+
+.card li:last-child {
+    border-bottom: none;
+}
+.card strong {
+    color: #2563eb;
+}
 .card h3 {
     color: #2563eb;
     margin-bottom: 10px;
