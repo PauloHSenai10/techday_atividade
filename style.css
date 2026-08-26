@@ -1,0 +1,230 @@
+/* Configuração geral */
+
+html {
+    scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+/* Cabeçalho */
+header {
+    background: linear-gradient(to right, #1e3a8a, #6d28d9);
+    color: white;
+    text-align: center;
+    padding: 100px 50px 50px;
+}
+
+header h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Menu */
+nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    padding: 20px 30px;
+    background: #1e3a8a;
+    text-align: right;
+    z-index: 1000;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #ddd6fe;
+}
+
+/* Seções */
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+section h2 {
+    color: #4c1d95;
+    margin-bottom: 20px;
+}
+
+
+/* Imagem principal */
+.imagem-principal {
+    padding: 0;
+}
+
+.imagem-principal img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.apresentacao ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.apresentacao li {
+    margin-bottom: 10px;
+}
+
+/* Cards */
+.card {
+    background-color: white;
+    width: 80%;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 10px;
+    border-left: 5px solid #2563eb;
+    text-align: left;
+}
+
+.card ol {
+    padding-left: 25px;
+}
+
+.card li {
+    padding: 12px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #ddd;
+    font-size: 17px;
+}
+
+.card li:last-child {
+    border-bottom: none;
+}
+.card strong {
+    color: #2563eb;
+}
+.card h3 {
+    color: #2563eb;
+    margin-bottom: 10px;
+}
+
+
+/* Programação */
+.programacao {
+    background-color: #e0e7ff;
+}
+
+/* Palestrantes */
+.palestrantes {
+    background-color: #f3e8ff;
+}
+
+.palestrantes-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.palestrantes-container .card {
+    width: 30%;
+    max-width: 350px;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    border-left: none;
+    border-top: 5px solid #2563eb;
+}
+
+.palestrantes-container .card img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 15px auto;
+}
+
+.palestrantes-container .card h3 {
+    margin-bottom: 10px;
+}
+
+.palestrantes-container .card p {
+    color: #555;
+}
+
+
+/* Inscrição */
+.inscricao {
+    background: linear-gradient(to right, #2563eb, #7c3aed);
+    color: white;
+}
+
+.inscricao h2 {
+    color: white;
+}
+
+.inscricao p {
+    margin-bottom: 30px;
+}
+.inscricao ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 600px;
+}
+
+.inscricao li {
+    margin-bottom: 12px;
+    padding: 10px 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+}
+
+/* Botão */
+button {
+    background-color: white;
+    color: #4c1d95;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ddd6fe;
+}
+
+
+/* Contato */
+.contato p {
+    margin: 10px;
+}
+
+
+/* Rodapé */
+footer {
+    background-color: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
